@@ -21,7 +21,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Tag(name = "Instructor", description = "Instructor endpoints")
 @SecurityRequirement(name = "Bearer Authentication")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081","https://lms-frontend-two-olive.vercel.app/"})
 public class InstructorController {
     
     private final CourseService courseService;

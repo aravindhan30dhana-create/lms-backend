@@ -21,7 +21,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 @Tag(name = "Student", description = "Student endpoints")
 @SecurityRequirement(name = "Bearer Authentication")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081","https://lms-frontend-two-olive.vercel.app/"})
 public class StudentController {
     
     private final EnrollmentService enrollmentService;

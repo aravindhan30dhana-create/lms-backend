@@ -19,7 +19,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @Tag(name = "Admin", description = "Admin endpoints")
 @SecurityRequirement(name = "Bearer Authentication")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","https://lms-frontend-two-olive.vercel.app/"})
 public class AdminController {
     
     private final UserService userService;

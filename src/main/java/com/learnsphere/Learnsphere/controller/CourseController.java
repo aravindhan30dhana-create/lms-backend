@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping("/courses")
 @RequiredArgsConstructor
 @Tag(name = "Courses", description = "Course management endpoints")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000", "http://localhost:8081","https://lms-frontend-two-olive.vercel.app/"})
 public class CourseController {
     
     private final CourseService courseService;

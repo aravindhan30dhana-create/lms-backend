@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/auth")
 @RequiredArgsConstructor
 @Tag(name = "Authentication", description = "Authentication endpoints")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","http://localhost:8081"})
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000","http://localhost:8081","https://lms-frontend-two-olive.vercel.app/"})
 public class AuthController {
     
     private final AuthService authService;
