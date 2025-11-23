@@ -40,4 +40,3 @@ target/
 *.log
 /.idea/
 /.vscode/
-application.properties
